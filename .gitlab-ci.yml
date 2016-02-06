@@ -13,8 +13,6 @@ before_script:
   - apt-get install -y nodejs
   - gem install bundler --no-ri --no-rdoc
   - cp config/database.gitlab-ci.yml config/database.yml
-  - touch log/application.log
-  - touch log/test.log
   - rm Gemfile.lock
   - bundle install --jobs $(nproc)  "${FLAGS[@]}"
   - bundle exec rake db:drop RAILS_ENV=test
