@@ -9,12 +9,14 @@ Gem::Specification.new do |s|
   s.version     = RailsCommon::VERSION
   s.authors     = ["Sathors"]
   s.email       = ["sathors@free.fr"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of RailsCommon."
-  s.description = "TODO: Description of RailsCommon."
+  s.homepage    = "https://gitlab.com/Sathors/rails_common.git"
+  s.summary     = "Our common API."
+  s.description = "RailsCommon is a common API we will use"\
+    " throughtout our projects."
   s.license     = "MIT"
 
-  s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile",
+                "README.rdoc"]
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 4.2.5.1"
