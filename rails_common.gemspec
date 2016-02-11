@@ -9,7 +9,6 @@ Gem::Specification.new do |s|
   s.version     = RailsCommon::VERSION
   s.authors     = ["Sathors"]
   s.email       = ["sathors@free.fr"]
-  s.homepage    = "https://gitlab.com/Sathors/rails_common.git"
   s.summary     = "Our common API."
   s.description = "RailsCommon is a common API we will use"\
     " throughtout our projects."
