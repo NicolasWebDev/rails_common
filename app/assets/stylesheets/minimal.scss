@@ -1,0 +1,68 @@
+$black-border: 1px solid black;
+$gray-goose: #D1D0CE;
+
+body {
+  width: 100%;
+  margin: 0;
+
+  > section {
+    border-bottom: $black-border;
+    text-align: center;
+    padding: 10px;
+
+    > h1 {
+      margin: 0;
+    }
+  }
+
+  > section:nth-child(2n) {
+    background-color: antiquewhite;
+  }
+
+  > section:nth-child(2n + 1) {
+    background-color: azure;
+  }
+}
+
+nav {
+  margin: 10px;
+  overflow: hidden;
+  border-top: $black-border;
+  border-left: $black-border;
+  border-bottom: $black-border;
+  display: inline-block;
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    a {
+      display: block;
+      padding: 5px 10px;
+    }
+  }
+
+  .simple-navigation-active-leaf {
+    background-color: $gray-goose;
+  }
+
+  > ul > li {
+    float: left;
+    border-right: $black-border;
+    // hack to make smaller menus take all the width
+    padding-bottom: 500px;
+    margin-bottom: -500px;
+
+    > span {
+      padding: 5px 10px;
+      display: block;
+    }
+  }
+}
+
+#breadcrumbs {
+  padding: 10px;
+  border-bottom: $black-border;
+}
+
