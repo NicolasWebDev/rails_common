@@ -1,3 +1,2 @@
 = RailsCommon
-
-This project rocks and uses MIT-LICENSE.
+{<img src="https://codeclimate.com/github/Sathors/rails_common/badges/gpa.svg" />}[https://codeclimate.com/github/Sathors/rails_common] {<img src="https://codeclimate.com/github/Sathors/rails_common/badges/issue_count.svg" />}[https://codeclimate.com/github/Sathors/rails_common] {<img src="https://gemnasium.com/c8bc7471a27b14846377e36a99ffe9a8.svg" alt="Dependency Status" />}[https://gemnasium.com/0003f1d29797510df0e67fb9b6c5dcb0]
