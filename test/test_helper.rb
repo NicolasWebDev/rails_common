@@ -4,6 +4,8 @@ SimpleCov.start
 if ENV['CI']=='true'
   require 'codecov'
   SimpleCov.formatter = SimpleCov::Formatter::Codecov
+  require "codeclimate-test-reporter"
+  CodeClimate::TestReporter.start
 end
 ENV["RAILS_ENV"] = "test"
 

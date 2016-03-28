@@ -8,6 +8,7 @@ variables:
   POSTGRES_USER: lost_items
   POSTGRES_PASSWORD: "test"
   CODECOV_TOKEN: f38ce4dc-b1c0-4f96-abf1-5efcc0f264d2
+  CODECLIMATE_REPO_TOKEN: 91c3c80dfacfc0ccb4244f84ea25c929add6a107a7e5361929b25931fe7dbba4
 
 before_script:
   - apt-get update -qy
