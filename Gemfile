@@ -6,6 +6,9 @@ source 'https://rubygems.org'
 gemspec 
 
 group :test do
+  # To add coverage reporting.
+  gem 'simplecov', require: false
+  # To add integration with codecov.
   gem 'codecov', require: false
 end
 
