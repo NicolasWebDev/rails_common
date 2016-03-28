@@ -10,8 +10,6 @@ group :test do
   gem 'simplecov', require: false
   # To add integration with codecov.
   gem 'codecov', require: false
-  # To send coverage report to codeclimate.
-  gem 'codeclimate-test-reporter', require: false
 end
 
 # Declare any dependencies that are still in development here instead of in
